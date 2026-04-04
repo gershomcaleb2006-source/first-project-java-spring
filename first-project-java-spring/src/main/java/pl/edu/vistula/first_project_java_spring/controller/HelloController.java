@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
 
     @GetMapping(value = "/")
-    @ResponseBody // Tells Spring to return this text exactly as-is
+    @ResponseBody
     public String hello() {
         return "Hello Vistula, in my first Spring controller.";
     }
@@ -18,6 +18,6 @@ public class HelloController {
     @GetMapping("/greeting")
     public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
-        return "greeting"; // This tells Spring to look for an HTML file named "greeting.html"
+        return "greeting";
     }
 }
