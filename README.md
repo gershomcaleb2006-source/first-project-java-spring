@@ -1,5 +1,5 @@
 # Spring Framework Application - Task 1
-**Author:** [Your Name]
+**Author:** Gershom Goldlin Ranjit
 **University:** Vistula University
 
 ## Project Overview
