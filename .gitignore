@@ -1,0 +1,27 @@
+### Java/Maven specific ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+### IntelliJ IDEA specific ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Maven Wrapper ###
+.mvn/
+mvnw
+mvnw.cmd
+
+### H2 Database temporary files ###
+*.mv.db
+*.trace.db
+
+### OS specific ###
+.DS_Store
+Thumbs.db
